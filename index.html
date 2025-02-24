@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Declamation speech and Dance presentation</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: "ballet harmony", serif;
+            background: linear-gradient(to bottom, #FFC0CB, #FFB6C1);
+            color: #000000;
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+        }
+        /* Navigation Bar */
+        nav {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 15px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 18px;
+            margin: 0 15px;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: color 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            color: #000000;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #FFFFE0;
+            color: lightpink;
+            text-align: center;
+            padding: 80px 20px 20px;
+            font-size: 28px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            margin-top: 50px;
+        }
+
+        /* Main Content Container */
+        .container {
+            max-width: 900px;
+            margin: 100px auto 20px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Blog Post Styling */
+        .blog-post {
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+        }
+
+        .blog-post:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(255, 255, 255, 0.3);
+        }
+
+        .blog-post h2 {
+            color: #ffcc00;
+            font-size: 1.8em;
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        .blog-post p {
+            line-height: 1.6;
+            font-size: 1.2em;
+        }
+
+        /* Video Embed */
+        .video-container {
+            margin-top: 20px;
+        }
+
+        .video-container video {
+            width: 100%;
+            height: 400px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3);
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #000000;
+            color: white;
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            font-size: 1em;
+            font-weight: bold;
+            text-align: center;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease-in-out;
+        }
+
+        footer:hover {
+            background-color: #ffffff;
+            color: black;
+            box-shadow: 0 -6px 12px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#journey">My Journey</a>
+        <a href="#video">Video</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <header>
+        <h1>Declamation Speech Program</h1> 
+    </header>
+    <div class="container">
+        <!-- Blog Posts -->
+        <div class="blog-post" id="journey">
+            <h2>"Our Declamation Presentation"</h2>
+            <p>Welcome to my weblog. Here, you will find interesting posts and videos that I would love to share with you.</p>
+            <!-- Embedded Video -->
+            <div class="video-container">
+                <video controls>
+                    <source src="christia.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+        <div class="blog-post" id="video">
+            <h2>"My Whole Declamation Speech"</h2>
+            <p>Hello everyone, I am Christina Sofia Marquez.</p>
+            <p>Do you think you'll be happy if you were criticized or discriminated against by someone? Of course not. Many people would not want to experience it. Today I am going to discuss about discrimination. Discrimination is the act of unfairness or prejudicial treatment of people and groups based on characteristics, such as race, gender, age, or sexual orientation. People should know that discrimination is not a right and that we should not do it. To the victim, you are not weak; your resilience in the face of such pain is an act of bravery. But to those who watch in silence, what are you? You hold the power to ignite change, to step up and say, “This stops now.” For every life torn apart by discrimination, there is a chance for healing if we choose kindness over cruelty. So let us end this cycle, for when we stand together, no one has to stand alone. Encourage people to discriminate against others. Discrimination should be stopped.</p>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer id="contact">
+        &copy; 2025 Declamation Speech Blog | Project in Computer
+    </footer>
+</body>
+</html>
